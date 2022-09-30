@@ -124,7 +124,7 @@ body {
     margin: 100px;
 }
 
-.skills-text {
+.skills-text, .text-skills {
     display: inline-flex;
     margin-block-end: 40px;
 }
@@ -135,10 +135,47 @@ body {
 }
 .skills-text img {
     margin-inline-end: 20px;
-    height: 60px;
+    height: 50px;
 }
 
 .skills-text h4 {
     margin: 0;
-    line-height: 60px;
+    line-height: 50px;
+    font-weight: bold;
+}
+.skills-badges {
+    padding-inline: 50px;
+}
+
+.mobile-badges {
+    margin-inline: 50px;
+}
+
+.text-skills img, p {
+    display: inline-block;
+}
+
+.text-skills p {
+    /* display: none; */
+    margin-inline-start: 15px;
+    margin-inline-end: 20px;
+    line-height: 30px;
+    font-size: 20px;
+    color: #515151;
+    font-weight: bold;
+}
+
+.skills-badges {
+    display: none;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
+}
+
+.mobile-badges {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* display: none; */
+
 }
