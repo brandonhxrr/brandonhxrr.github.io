@@ -18,7 +18,7 @@ body {
 .bar {
     width: 100%;
     height: 91px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
 }
 
 .logo p {
@@ -118,4 +118,27 @@ body {
     padding-block: 15px;
     font-size: 16px;
     text-decoration: none;
+}
+
+.skills {
+    margin: 100px;
+}
+
+.skills-text {
+    display: inline-flex;
+    margin-block-end: 40px;
+}
+
+.skills-text h4, img{
+    display: inline-block;
+    font-size: 30px;
+}
+.skills-text img {
+    margin-inline-end: 20px;
+    height: 60px;
+}
+
+.skills-text h4 {
+    margin: 0;
+    line-height: 60px;
 }
