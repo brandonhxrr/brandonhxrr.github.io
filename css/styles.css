@@ -3,6 +3,7 @@
     --Blue-Light: #7A7CFF;
     --Blue-Dark: #0026CA;
     --Gray: #212121;
+    --Medium-Gray: #424242;
 }
 
 html {
@@ -120,7 +121,7 @@ body {
     text-decoration: none;
 }
 
-.skills {
+.section-content {
     margin: 100px;
 }
 
@@ -161,7 +162,7 @@ body {
     margin-inline-end: 20px;
     line-height: 30px;
     font-size: 20px;
-    color: #515151;
+    color: var(--Medium-Gray);
     font-weight: bold;
 }
 
@@ -172,10 +173,97 @@ body {
     justify-content: center; */
 }
 
-.mobile-badges {
+.mobile-badges, .project-buttons{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     /* display: none; */
 
+}
+
+.project-buttons {
+    margin-block-end: 20px;
+}
+
+.project-card {
+    width: 300px;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-inline: 20px;
+    margin-block: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.project-text {
+    margin-block-start: 20px;
+}
+
+.project-image img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.project-header {
+    line-height: 20px;
+}
+
+.project-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-block: 0;
+    margin-inline: 20px;
+}
+
+.project-date {
+    font-size: 14px;
+    color: var(--Medium-Gray);
+    margin-block: 0;
+    margin-inline: 20px;
+    float: right;
+}
+
+.project-description {
+    font-size: 16px;
+    margin: 20px;
+}
+
+.figma-button {
+    background-color: #DCE1FF;
+    border-radius: 5px;
+    margin-inline: 15px;
+    margin-block: 5px;
+    padding-inline: 15px;
+    padding-block: 10px;
+    display: inline-flex;
+}
+
+.figma-button img, .github-button img{
+    height: 20px;
+    margin-inline-end: 10px;
+}
+
+.figma-button a{
+    text-decoration: none;
+    color: black;
+    line-height: 20px;
+}
+
+.github-button {
+    background-color: black;
+    border-radius: 5px;
+    margin-inline: 15px;
+    margin-block: 5px;
+    padding-inline: 15px;
+    padding-block: 10px;
+    display: inline-flex;
+}
+
+
+.github-button a {
+    text-decoration: none;
+    color: white;
+    line-height: 20px;
 }
