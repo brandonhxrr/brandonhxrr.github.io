@@ -173,7 +173,7 @@ body {
     justify-content: center; */
 }
 
-.mobile-badges, .project-buttons{
+.mobile-badges, .project-buttons, .projects{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -188,21 +188,35 @@ body {
 .project-card {
     width: 300px;
     background-color: white;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     margin-inline: 20px;
     margin-block: 20px;
     display: inline-block;
     vertical-align: top;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    height: 80%;
+    width: 100%;
 }
 
 .project-text {
     margin-block-start: 20px;
 }
 
+.project-image {
+    line-height: 200px;
+    height: 200px;
+    overflow-y: hidden;
+}
+
 .project-image img {
     width: 300px;
-    height: 200px;
+    height: auto;
     border-radius: 10px 10px 0px 0px;
 }
 
@@ -228,6 +242,11 @@ body {
 .project-description {
     font-size: 16px;
     margin: 20px;
+    height: 110px;
+    overflow-y: hidden;
+    /* width: 260px;
+    white-space: initial;
+    overflow: hidden; */
 }
 
 .figma-button {
@@ -238,17 +257,14 @@ body {
     padding-inline: 15px;
     padding-block: 10px;
     display: inline-flex;
+    text-decoration: none;
+    color: black;
+    line-height: 20px;
 }
 
 .figma-button img, .github-button img{
     height: 20px;
     margin-inline-end: 10px;
-}
-
-.figma-button a{
-    text-decoration: none;
-    color: black;
-    line-height: 20px;
 }
 
 .github-button {
@@ -259,11 +275,23 @@ body {
     padding-inline: 15px;
     padding-block: 10px;
     display: inline-flex;
-}
-
-
-.github-button a {
     text-decoration: none;
     color: white;
     line-height: 20px;
 }
+
+.projects {
+    margin-inline: auto;
+}
+
+/* .projects {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+
+    
+}
+
+.project-card {
+    display: inline-block;
+} */
