@@ -126,21 +126,21 @@ body {
     margin-block: 100px;
 }
 
-.skills-text, .text-skills {
+.subtitle, .text-skills {
     display: inline-flex;
     margin-block-end: 40px;
 }
 
-.skills-text h4, img{
+.subtitle h4, img{
     display: inline-block;
     font-size: 30px;
 }
-.skills-text img {
+.subtitle img {
     margin-inline-end: 20px;
     height: 50px;
 }
 
-.skills-text h4 {
+.subtitle h4 {
     margin: 0;
     line-height: 50px;
     font-weight: bold;
@@ -174,7 +174,7 @@ body {
     justify-content: center; */
 }
 
-.mobile-badges, .project-buttons, .projects{
+.mobile-badges, .card-buttons, .cards-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -182,11 +182,11 @@ body {
 
 }
 
-.project-buttons {
+.card-buttons {
     margin-block-end: 20px;
 }
 
-.project-card {
+.card {
     width: 300px;
     background-color: white;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -205,34 +205,34 @@ body {
     width: 100%;
 }
 
-.project-text {
+.card-text {
     margin-block-start: 20px;
 }
 
-.project-image {
+.card-image {
     line-height: 200px;
     height: 200px;
     overflow-y: hidden;
 }
 
-.project-image img {
+.card-image img {
     width: 300px;
     height: auto;
     border-radius: 10px 10px 0px 0px;
 }
 
-.project-header {
+.card-header {
     line-height: 20px;
 }
 
-.project-title {
+.card-title {
     font-size: 20px;
     font-weight: bold;
     margin-block: 0;
     margin-inline: 20px;
 }
 
-.project-date {
+.card-date {
     font-size: 14px;
     color: var(--Medium-Gray);
     margin-block: 0;
@@ -240,7 +240,7 @@ body {
     float: right;
 }
 
-.project-description {
+.card-description {
     font-size: 16px;
     margin: 20px;
     height: 110px;
@@ -285,7 +285,7 @@ body {
     height: 100%;
 }
 
-#communities .project-image {
+#communities .card-image {
     height: 300px;
 }
 
@@ -312,6 +312,6 @@ body {
     
 }
 
-.project-card {
+.card {
     display: inline-block;
 } */
