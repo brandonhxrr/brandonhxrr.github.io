@@ -289,6 +289,29 @@ body {
     height: 300px;
 }
 
+.footer{
+    background-color: var(--Gray);
+}
+
+.footer p , .footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-content {
+    display: flex;
+    padding-block-end: 50px;
+    padding-block-start: 50px;
+    padding-inline: 100px;
+}
+
+.credits {
+    font-size: 20px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
 /* .communities {
     width: 100%;
 }
