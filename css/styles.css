@@ -326,29 +326,24 @@ body {
     text-align-last: center;
 }
 
-/* .communities {
+.networks {
     width: 100%;
+    justify-content: center;
+    text-align: center;
 }
 
-.community img {
-    width: 150px;
-    height: 150px;
-    border-radius: 10px;
+.networks a {
+    margin-inline: 50px;
+    text-decoration: none;
+    display: inline-grid;
+    color: var(--Medium-Gray);
 }
 
-.community {
-    display: inline-flex;
-} */
-
-
-/* .projects {
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
-
-    
+.networks a:hover {
+    color: var(--Gray);
+    font-weight: bold;
 }
 
-.card {
-    display: inline-block;
-} */
+.networks img {
+    height: 70px;
+}
