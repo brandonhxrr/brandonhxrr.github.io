@@ -27,15 +27,19 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 72px;
+    background-color: #21D4FD;
+    background-image: linear-gradient( 109.6deg,  rgba(45,116,213,1) 11.2%, rgba(121,137,212,1) 91.2% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .hero-text h2 {
-    color: var(--Blue-Primary);
+    color: var(--Gray);
     font-size: 48px;
 }
 
 .hero-text h3 {
-    color: var(--Gray);
+    color: var(--Medium-Gray);
     font-size: 32px;
 }
 
