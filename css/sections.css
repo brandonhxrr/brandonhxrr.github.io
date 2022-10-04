@@ -55,3 +55,32 @@
 #About {
     text-align-last: center;
 }
+
+@media screen and (max-width: 768px)  {
+    .section-content {
+        margin-inline: 20px;
+        margin-block: 20px;
+    }
+
+    .about {
+        font-size: 12px;
+        margin-block: 40px;
+    }
+
+    .footer .logo {
+        display: none;
+    }
+
+    .footer-content {
+        padding-block: 30px;
+        padding-inline: 50px;
+    }
+    
+    .credits {
+        font-size: 14px;
+    }
+
+    .credits img {
+        height: 15px;
+    }
+}

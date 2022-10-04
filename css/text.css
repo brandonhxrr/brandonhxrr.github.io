@@ -45,3 +45,34 @@
     flex-wrap: wrap;
     justify-content: center; */
 }
+
+@media screen and (max-width: 768px)  {
+    .subtitle img {
+        margin-inline-end: 10px;
+        height: 30px;
+    }
+    
+    .subtitle h4 {
+        margin: 0;
+        line-height: 30px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .mobile-badges {
+        margin-inline: 20px;
+    }
+
+    .text-skills {
+        margin-block-end: 20px;
+    }
+
+    .text-skills p {
+        display: none;
+    }
+
+    .text-skills img {
+        margin-inline-end: 10px;
+        height: 30px;
+    }
+}

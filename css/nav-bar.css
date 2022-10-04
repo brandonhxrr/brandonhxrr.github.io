@@ -43,9 +43,14 @@
 .bar div {
     margin-block-start: 36px;
     display: inline-block;
-    vertical-align: center;
 }
 
 .nav {
     float: right;
+}
+
+@media screen and (max-width: 768px)  {
+    .nav ul li{
+        display: none;
+    }
 }

@@ -38,3 +38,37 @@
     color: var(--Gray);
     font-size: 32px;
 }
+
+@media screen and (max-width: 768px)  {
+    .hero {
+        flex-direction: column;
+        margin-block-start: 20px;
+    }
+
+    .hero .image img {
+        width: 300px;
+        margin-inline-start: 0;
+        margin-block-end: 20px;
+    }
+
+    .hero-text h1, h2, h3 {
+        margin-block: 10px;
+    }
+
+    .hero-text {
+        margin-inline-start: 0;
+        text-align: center;
+    }
+
+    .hero-text h1 {
+        font-size: 32px;
+    }
+
+    .hero-text h2 {
+        font-size: 24px;
+    }
+
+    .hero-text h3 {
+        font-size: 20px;
+    }
+}
