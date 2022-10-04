@@ -1,0 +1,52 @@
+.chip-container {
+    margin-inline: 20px;
+    margin-block-start: 10px;
+}
+
+.chip {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 20px;
+    background-color: #3484ec;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.android {
+    background-color: #32DE84;
+}
+
+.firebase {
+    background-color: #FFA000;
+}
+
+.java {
+    background-color: #5382A1;
+}
+
+.kotlin {
+    background-color: #7F52FF;
+}
+
+.django {
+    background-color: #092E20;
+}
+
+.html {
+    background-color: #E34C26;
+}
+
+.css {
+    background-color: #2965f1;
+}
+
+.figma {
+    background-color: #FF3B00;
+}
+
+.react {
+    background-color: #61DAFB;
+}

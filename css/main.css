@@ -6,6 +6,7 @@
 @import "./card.css";
 @import "./sections.css";
 @import "./text.css";
+@import "./chips.css";
 
 html {
     font-size: 16px;
