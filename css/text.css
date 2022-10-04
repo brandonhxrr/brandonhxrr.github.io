@@ -49,14 +49,14 @@
 @media screen and (max-width: 768px)  {
     .subtitle img {
         margin-inline-end: 10px;
-        height: 30px;
+        height: 40px;
     }
     
     .subtitle h4 {
         margin: 0;
-        line-height: 30px;
+        line-height: 40px;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .mobile-badges {
@@ -73,6 +73,6 @@
 
     .text-skills img {
         margin-inline-end: 10px;
-        height: 30px;
+        height: 40px;
     }
 }

@@ -67,19 +67,3 @@
     white-space: initial;
     overflow: hidden; */
 }
-
-@media screen and (max-width: 768px)  {
-    .card-title {
-        font-size: 14px;
-    }
-    
-    .card-date {
-        font-size: 12px;
-    }
-    
-    .card-description {
-        font-size: 12px;
-        height: 70px;
-    }
-
-}
