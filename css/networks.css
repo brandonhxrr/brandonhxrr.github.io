@@ -1,0 +1,23 @@
+@import "./colors.css";
+
+.networks {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.networks a {
+    margin-inline: 50px;
+    text-decoration: none;
+    display: inline-grid;
+    color: var(--Medium-Gray);
+}
+
+.networks a:hover {
+    color: var(--Gray);
+    font-weight: bold;
+}
+
+.networks img {
+    height: 70px;
+}

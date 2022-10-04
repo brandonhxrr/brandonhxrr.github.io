@@ -1,0 +1,40 @@
+@import "./colors.css";
+
+.hero {
+    height: auto;
+    margin-block-start: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero .image img {
+    width: 500px;
+    border-radius: 10%;
+    margin-inline-start: 50px;
+}
+
+.hero-text {
+    margin-inline-start: 50px;
+}
+
+.hero-text h1, h2, h3 {
+    margin-block: 0;
+}
+
+.hero-text h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+}
+
+.hero-text h2 {
+    color: var(--Blue-Primary);
+    font-size: 48px;
+}
+
+.hero-text h3 {
+    color: var(--Gray);
+    font-size: 32px;
+}

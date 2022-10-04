@@ -1,0 +1,18 @@
+@import "./colors.css";
+@import "./nav-bar.css";
+@import "./hero.css";
+@import "./button.css";
+@import "./networks.css";
+@import "./card.css";
+@import "./sections.css";
+@import "./text.css";
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+}

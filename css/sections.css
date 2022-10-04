@@ -1,0 +1,57 @@
+@import "./colors.css";
+
+.section-content {
+    margin-inline: 100px;
+    margin-block: 100px;
+}
+
+.mobile-badges, .card-buttons, .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#communities .overlay{
+    height: 100%;
+}
+
+#communities .card-image {
+    height: 300px;
+}
+
+.footer{
+    background-color: var(--Blue-Light);
+}
+
+.footer p , .footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-content {
+    display: flex;
+    padding-block-end: 50px;
+    padding-block-start: 50px;
+    padding-inline: 100px;
+}
+
+.credits {
+    font-size: 20px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.about {
+    width: 80%;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    color: var(--Gray);
+    display: inline-flex;
+    align-self: center;
+}
+
+#About {
+    text-align-last: center;
+}

@@ -1,0 +1,48 @@
+@import "./colors.css";
+
+.button {
+    height: 50px;
+    margin-block-start: 20px;
+    display: inline-flex;
+    background-color: var(--Blue-Primary);
+    border-radius: 50px;
+}
+
+.button a{
+    color: white;
+    padding-inline: 40px;
+    padding-block: 15px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.figma-button {
+    background-color: #DCE1FF;
+    border-radius: 5px;
+    margin-inline: 15px;
+    margin-block: 5px;
+    padding-inline: 15px;
+    padding-block: 10px;
+    display: inline-flex;
+    text-decoration: none;
+    color: black;
+    line-height: 20px;
+}
+
+.figma-button img, .github-button img{
+    height: 20px;
+    margin-inline-end: 10px;
+}
+
+.github-button {
+    background-color: black;
+    border-radius: 5px;
+    margin-inline: 15px;
+    margin-block: 5px;
+    padding-inline: 15px;
+    padding-block: 10px;
+    display: inline-flex;
+    text-decoration: none;
+    color: white;
+    line-height: 20px;
+}

@@ -1,0 +1,47 @@
+.subtitle, .text-skills {
+    display: inline-flex;
+    margin-block-end: 40px;
+}
+
+.subtitle h4, img{
+    display: inline-block;
+    font-size: 30px;
+}
+.subtitle img {
+    margin-inline-end: 20px;
+    height: 50px;
+}
+
+.subtitle h4 {
+    margin: 0;
+    line-height: 50px;
+    font-weight: bold;
+}
+.skills-badges {
+    padding-inline: 50px;
+}
+
+.mobile-badges {
+    margin-inline: 50px;
+}
+
+.text-skills img, p {
+    display: inline-block;
+}
+
+.text-skills p {
+    /* display: none; */
+    margin-inline-start: 15px;
+    margin-inline-end: 20px;
+    line-height: 30px;
+    font-size: 20px;
+    color: var(--Medium-Gray);
+    font-weight: bold;
+}
+
+.skills-badges {
+    display: none;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
+}

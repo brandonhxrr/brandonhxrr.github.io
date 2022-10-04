@@ -1,0 +1,51 @@
+@import "./colors.css";
+
+.bar {
+    width: 100%;
+    height: 91px;
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+}
+
+.logo p {
+    color: var(--Blue-Primary);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding-inline-start: 50px;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.nav a {
+    color: var(--Gray);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    color: var(--Blue-Primary);
+}
+
+.nav ul, p {
+    margin-block: 0;
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline;
+    margin-inline-end: 100px;
+}
+
+.bar div {
+    margin-block-start: 36px;
+    display: inline-block;
+    vertical-align: center;
+}
+
+.nav {
+    float: right;
+}
