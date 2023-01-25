@@ -1,8 +1,8 @@
 @import "./colors.css";
 
 .section-content {
-    margin-inline: 100px;
     margin-block: 100px;
+    margin-inline: 100px;
 }
 
 .mobile-badges, .card-buttons, .cards-container {
