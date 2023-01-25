@@ -67,6 +67,11 @@
     align-self: center;
 }
 
+.repo-card {
+    display: table-cell;
+    padding: 20px;
+}
+
 #About {
     text-align-last: center;
 }
