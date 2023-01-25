@@ -54,4 +54,8 @@
     .nav ul li{
         display: none;
     }
+
+    .logo p {
+        padding-inline-start: 30px;
+    }
 }

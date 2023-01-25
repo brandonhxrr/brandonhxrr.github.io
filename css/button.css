@@ -1,15 +1,19 @@
 @import "./colors.css";
 
 .button {
+    backdrop-filter: blur(5px);
     height: 50px;
     margin-block-start: 20px;
     display: inline-flex;
-    background-color: var(--Material-Blue-Light);
+    background-color: transparent;
     border-radius: 50px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: var(--Material-Blue-Light);
 }
 
 .button a{
-    color: var(--Blue-Primary);
+    color: var(--Material-Blue-Light);
     padding-inline: 40px;
     padding-block: 15px;
     font-size: 16px;

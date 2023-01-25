@@ -11,6 +11,19 @@
     justify-content: center;
 }
 
+.subtitle img {
+    display: none;
+}
+
+.subtitle {
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    padding-inline: 20px;
+    box-shadow: -7px 7px 0 0px var(--Blue-Light);
+}
+
 #communities .overlay{
     height: 100%;
 }
