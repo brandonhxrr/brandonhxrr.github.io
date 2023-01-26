@@ -17,3 +17,7 @@ body {
     color: black;
     font-family: 'Nunito', sans-serif;
 }
+
+.subtitle, .card-header, .chip {
+    font-family: 'Inter', sans-serif;
+}

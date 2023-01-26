@@ -1,16 +1,19 @@
 @import "./colors.css";
 
 .button {
+    backdrop-filter: blur(5px);
     height: 50px;
     margin-block-start: 20px;
     display: inline-flex;
-    background-color: var(--Blue-Primary);
-    background-image: linear-gradient( 109.6deg,  rgba(45,116,213,1) 11.2%, rgba(121,137,212,1) 91.2% );    
+    background-color: transparent;
     border-radius: 50px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: var(--Material-Blue-Light);
 }
 
 .button a{
-    color: white;
+    color: var(--Material-Blue-Light);
     padding-inline: 40px;
     padding-block: 15px;
     font-size: 16px;

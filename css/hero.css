@@ -1,22 +1,39 @@
 @import "./colors.css";
 
+.hero-container {
+    position: relative;
+    height: 100vh;
+}
+
 .hero {
-    height: auto;
-    margin-block-start: 50px;
+    height: 100%;
     width: 100%;
+    position: absolute;
+    top: 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/background/background (1).jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: black;
+}
+
+.image {
+    position: absolute;
 }
 
 .hero .image img {
-    width: 500px;
-    border-radius: 10%;
-    margin-inline-start: 50px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
 }
 
 .hero-text {
-    margin-inline-start: 50px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
 }
 
 .hero-text h1, h2, h3 {
@@ -27,26 +44,27 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 72px;
-    background-color: #21D4FD;
-    background-image: linear-gradient( 109.6deg,  rgba(45,116,213,1) 11.2%, rgba(121,137,212,1) 91.2% );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    /*color: var(--Material-Blue-Light);*/
+    color: white;
 }
 
 .hero-text h2 {
-    color: var(--Gray);
-    font-size: 48px;
+    color: var(--Material-Blue-Light);
+    font-size: 36px;
 }
 
 .hero-text h3 {
-    color: var(--Medium-Gray);
-    font-size: 32px;
+    color: white;
+    font-size: 24px;
+}
+
+.hero-text .button {
+    margin-block-start: 70px;
 }
 
 @media screen and (max-width: 768px)  {
     .hero {
         flex-direction: column;
-        margin-block-start: 20px;
     }
 
     .hero .image img {

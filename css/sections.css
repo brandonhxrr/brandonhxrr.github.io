@@ -1,14 +1,27 @@
 @import "./colors.css";
 
 .section-content {
-    margin-inline: 100px;
     margin-block: 100px;
+    margin-inline: 100px;
 }
 
 .mobile-badges, .card-buttons, .cards-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.subtitle img {
+    display: none;
+}
+
+.subtitle {
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    padding-inline: 20px;
+    box-shadow: -7px 7px 0 0px var(--Blue-Light);
 }
 
 #communities .overlay{
@@ -21,8 +34,8 @@
 
 .footer{
     background: #4568DC;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #9599E2, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,#9599E2, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .footer p , .footer a{
@@ -52,6 +65,11 @@
     color: var(--Gray);
     display: inline-flex;
     align-self: center;
+}
+
+.repo-card {
+    display: table-cell;
+    padding: 20px;
 }
 
 #About {
