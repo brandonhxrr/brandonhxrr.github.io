@@ -103,4 +103,9 @@
     .credits img {
         height: 15px;
     }
+
+    .repo-card {
+        display: inline;
+        padding: 20px;
+    }
 }
