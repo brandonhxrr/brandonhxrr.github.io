@@ -39,7 +39,7 @@
     background-color: #E34C26;
 }
 
-.css {
+.css, .typescript {
     background-color: #2965f1;
 }
 
@@ -49,4 +49,8 @@
 
 .react {
     background-color: #61DAFB;
+}
+
+.smart-contracts {
+    background-color: #000000;
 }
