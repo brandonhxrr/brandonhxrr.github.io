@@ -1,61 +1,117 @@
 @import "./colors.css";
 
 .bar {
-    width: 100%;
-    height: 91px;
-    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 56px;
+    height: 68px;
+    background: var(--nav-bg);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--border);
+    position: sticky;
     top: 0;
-}
-
-.logo p {
-    color: var(--Material-Blue-Light);
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-    padding-inline-start: 50px;
+    z-index: 200;
+    transition: background 0.4s, border-color 0.4s;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .logo a {
     text-decoration: none;
 }
 
-.nav a {
-    color: var(--Material-Blue-Light);
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 16px;
-    font-weight: bold;
+.logo p {
+    font-family: 'Space Mono', monospace;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--text);
+    letter-spacing: -0.5px;
+    margin: 0;
+    transition: color 0.3s;
 }
 
-.nav a:hover {
-    color: white;
+.logo p span {
+    color: var(--accent);
 }
 
-.nav ul, p {
-    margin-block: 0;
+.nav ul {
+    display: flex;
+    gap: 36px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .nav ul li {
-    list-style: none;
     display: inline;
-    margin-inline-end: 100px;
 }
 
-.bar div {
-    margin-block-start: 36px;
-    display: inline-block;
+.nav a {
+    font-family: 'Space Mono', monospace;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: var(--text2);
+    text-decoration: none;
+    transition: color 0.2s;
+    position: relative;
 }
 
-.nav {
-    float: right;
+.nav a::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background: var(--accent);
+    transition: width 0.25s;
 }
 
-@media screen and (max-width: 768px)  {
-    .nav ul li{
-        display: none;
+.nav a:hover {
+    color: var(--text);
+}
+
+.nav a:hover::after {
+    width: 100%;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.theme-toggle {
+    width: 36px;
+    height: 36px;
+    border: 1px solid var(--border);
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    color: var(--text2);
+    font-size: 15px;
+    transition: all 0.2s;
+    flex-shrink: 0;
+}
+
+.theme-toggle:hover {
+    background: var(--surface);
+    color: var(--text);
+}
+
+@media screen and (max-width: 768px) {
+    .bar {
+        padding: 0 24px;
+        height: 60px;
     }
 
-    .logo p {
-        padding-inline-start: 30px;
+    .nav ul li {
+        display: none;
     }
 }

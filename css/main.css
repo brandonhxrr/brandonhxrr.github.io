@@ -7,17 +7,18 @@
 @import "./sections.css";
 @import "./text.css";
 @import "./chips.css";
+@import "./scroll.css";
 
 html {
     font-size: 16px;
+    scroll-behavior: smooth;
 }
 
 body {
     margin: 0;
-    color: black;
-    font-family: 'Nunito', sans-serif;
-}
-
-.subtitle, .card-header, .chip {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Syne', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    transition: background 0.4s, color 0.4s;
+    overflow-x: hidden;
 }
