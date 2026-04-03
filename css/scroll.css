@@ -1,6 +1,6 @@
 * {
     scrollbar-width: thin;
-    scrollbar-color: var(--accent) var(--bg2);
+    scrollbar-color: var(--accent-text) var(--bg2);
 }
 
 *::-webkit-scrollbar {
@@ -8,10 +8,10 @@
 }
 
 *::-webkit-scrollbar-track {
-    background: var(--bg2);
+    background: var(--accent-text);
 }
 
 *::-webkit-scrollbar-thumb {
-    background-color: var(--accent);
+    background-color: var(--accent-text);
     border-radius: 10px;
 }

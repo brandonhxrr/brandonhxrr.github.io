@@ -9,11 +9,11 @@
     border-radius: 50px;
     border-width: 3px;
     border-style: solid;
-    border-color: var(--Material-Blue-Light);
+    border-color: var(--accent-text);
 }
 
 .button a{
-    color: var(--Material-Blue-Light);
+    color: var(--accent-text);
     padding-inline: 40px;
     padding-block: 15px;
     font-size: 16px;
