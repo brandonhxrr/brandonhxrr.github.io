@@ -87,9 +87,8 @@
 
 .contact-big {
     font-size: 52px;
-    font-weight: 800;
-    letter-spacing: -3px;
-    line-height: 1.05;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
     color: var(--text);
     margin-bottom: 20px;
     transition: color 0.4s;
