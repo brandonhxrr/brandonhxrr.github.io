@@ -14,3 +14,20 @@ setInterval(() => {
   i = (i % images) + 1;
 
 }, 6000);
+
+const html = document.documentElement;
+const themeBtn = document.getElementById('themeBtn');
+const savedTheme = localStorage.getItem('theme');
+
+if (savedTheme === 'dark' || (!savedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    html.classList.add('dark');
+    if (themeBtn) themeBtn.textContent = '🌙';
+}
+
+if (themeBtn) {
+    themeBtn.addEventListener('click', () => {
+        const isDark = html.classList.toggle('dark');
+        themeBtn.textContent = isDark ? '🌙' : '☀️';
+        localStorage.setItem('theme', isDark ? 'dark' : 'light');
+    });
+}
